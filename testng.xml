@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Nagwa Student Regression Suite">
+	<parameter name="browser" value="chrome"/>
+	<test name="anonymousUser ">
+	
+		<classes>
+
+			<class name="anonymousUserTests.LanguageTest"/>
+			<class name="anonymousUserTests.PortalsTest"/>
+			<class name="loginUserTests.SignOutTest"/>
+			<class name="anonymousUserTests.SearchForLessonTest"/>
+			<class name="anonymousUserTests.GradesTest"/>
+			<class name="anonymousUserTests.StudentTest"/>
+			<class name="anonymousUserTests.EducatorTest"/>
+			<class name="anonymousUserTests.AboutUsTest"/>
+			<class name="anonymousUserTests.ContactUsTest"/>
+			<class name="anonymousUserTests.PrivacyPolicyTest"/>
+			<class name="anonymousUserTests.Terms_and_conditions"/>
+			<class name="anonymousUserTests.CoursesTest"/>
+			<class name="anonymousUserTests.LessonsTest"/>
+			<class name="anonymousUserTests.LessonPlanTest"/>
+			<class name="anonymousUserTests.PresentationLessonTest"/>
+			<class name="anonymousUserTests.VideosTest"/>
+			<class name="anonymousUserTests.ExplainersTest"/>
+			<class name="anonymousUserTests.WorksheetTest"/>
+			<class name="anonymousUserTests.ExamsTest"/>
+			<class name="anonymousUserTests.UserGuideTest"/>
+			<class name="anonymousUserTests.AppsTest"/>
+
+
+
+
+			<!--class name="loginUserTests.SignIn"></class>-->
+			<!--class name="loginUserTests.SignOutTest"></class>-->
+           
+        
+
+		</classes>
+	</test>  
+
+
+</suite> 

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-18T16:45:05 EET" name="Nawgwa Student Regression Suite" finished-at="2021-02-18T16:45:44 EET" duration-ms="38605">
+    <groups>
+    </groups>
+    <test started-at="2021-02-18T16:45:05 EET" name="anonymosUser " finished-at="2021-02-18T16:45:44 EET" duration-ms="38605">
+      <class name="anonymousUserTests.LanguageTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:anonymousUserTests.LanguageTest@7bd7d6d6]" started-at="2021-02-18T16:44:06 EET" name="startDriver" finished-at="2021-02-18T16:45:05 EET" duration-ms="58855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="openHomepageInENGLISHlanguage()[pri:0, instance:anonymousUserTests.LanguageTest@7bd7d6d6]" started-at="2021-02-18T16:45:05 EET" name="openHomepageInENGLISHlanguage" finished-at="2021-02-18T16:45:20 EET" duration-ms="15024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepageInENGLISHlanguage -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:anonymousUserTests.LanguageTest@7bd7d6d6]" started-at="2021-02-18T16:45:20 EET" name="screenshotFailure" finished-at="2021-02-18T16:45:20 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                  <![CDATA[[TestResult name=openHomepageInENGLISHlanguage status=SUCCESS method=BE_LanguageTest.openHomepageInENGLISHlanguage()[pri:0, instance:anonymousUserTests.LanguageTest@7bd7d6d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:anonymousUserTests.LanguageTest@7bd7d6d6]" started-at="2021-02-18T16:45:44 EET" name="closeDriver" finished-at="2021-02-18T16:45:44 EET" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- anonymousUserTests.LanguageTest -->
+      <class name="anonymousUserTests.PortalsTest">
+        <test-method signature="openportalpage()[pri:0, instance:anonymousUserTests.PortalsTest@43f02ef2]" started-at="2021-02-18T16:45:20 EET" name="openportalpage" finished-at="2021-02-18T16:45:29 EET" duration-ms="8458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openportalpage -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:anonymousUserTests.PortalsTest@43f02ef2]" started-at="2021-02-18T16:45:29 EET" name="screenshotFailure" finished-at="2021-02-18T16:45:29 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                  <![CDATA[[TestResult name=openportalpage status=SUCCESS method=BE_Portals.openportalpage()[pri:0, instance:anonymousUserTests.PortalsTest@43f02ef2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method signature="viewportalpage()[pri:1, instance:anonymousUserTests.PortalsTest@43f02ef2]" started-at="2021-02-18T16:45:29 EET" name="viewportalpage" finished-at="2021-02-18T16:45:42 EET" duration-ms="13326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewportalpage -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:anonymousUserTests.PortalsTest@43f02ef2]" started-at="2021-02-18T16:45:42 EET" name="screenshotFailure" finished-at="2021-02-18T16:45:42 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                  <![CDATA[[TestResult name=viewportalpage status=SUCCESS method=BE_Portals.viewportalpage()[pri:1, instance:anonymousUserTests.PortalsTest@43f02ef2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+        <test-method signature="preview_testimonials()[pri:2, instance:anonymousUserTests.PortalsTest@43f02ef2]" started-at="2021-02-18T16:45:42 EET" name="preview_testimonials" finished-at="2021-02-18T16:45:44 EET" duration-ms="1675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preview_testimonials -->
+        <test-method is-config="true" signature="screenshotFailure(org.testng.ITestResult)[pri:0, instance:anonymousUserTests.PortalsTest@43f02ef2]" started-at="2021-02-18T16:45:44 EET" name="screenshotFailure" finished-at="2021-02-18T16:45:44 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                  <![CDATA[[TestResult name=preview_testimonials status=SUCCESS method=BE_Portals.preview_testimonials()[pri:2, instance:anonymousUserTests.PortalsTest@43f02ef2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotFailure -->
+      </class> <!-- anonymousUserTests.PortalsTest -->
+    </test> <!-- anonymosUser  -->
+  </suite> <!-- Nawgwa Student Regression Suite -->
+</testng-results>

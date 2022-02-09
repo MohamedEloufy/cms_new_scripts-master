@@ -1,0 +1,47 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Nagwa Student Regression Suite">
+	<parameter name="browser" value="chrome"></parameter>
+	<test name="main ">
+	
+		<classes>
+
+			<class name="anonymousUserTests.LanguageTest"/>
+			<class name="loginUserTests.SignIn"/>
+			<class name="assessmentsTests.Assessment_Report"/>
+			<class name="examsTests.Exams_Report"/>
+			<!--class name="worksheetTest.View_Worksheet_Reports"/>-->
+			<class name="classesTests.ClassesTest"/>
+			<class name="classesTests.PlayVideoPostTest"/>
+			<class name="classesTests.DownloadFileTest"/>
+			<class name="coursesTests.CoursesTest"/>
+			<class name="coursesTests.LessonTest"/>
+			<class name="worksheetTest.PracticeWorksheetTest"/>
+			<!--class name="loginUserTests.FE_JoinSession"/>-->
+			<class name="loginUserTests.SignOutTest"/>
+
+
+
+
+			<!--class name="assessmentsTests.View_Assessment_list"/>
+			<class name="assessmentsTests.SolvingMCQassessmentTest"/>
+			<class name="assessmentsTests.MCQ_Editing"/>
+			<class name="assessmentsTests.FE_SolvingFREEformAssessment"/>
+			<class name="assessmentsTests.FREE_FORM_Editing"/>
+			<class name="assessmentsTests.FRQ_Solving"/>
+			<class name="assessmentsTests.FRQ_Editing"/>
+			<class name="assessmentsTests.FE_QuizMCQsolving"/>
+			<class name="assessmentsTests.FE_EditMCQquiz"/>
+			<class name="assessmentsTests.FE_QuizFreeFormSolving"/>
+			<class name="assessmentsTests.FE_EditFreeFormQuiz"/>
+			<class name="examsTests.FE_ExamsSolving"/>
+			<class name="examsTests.FE_EditExam"></class>-->
+			
+
+		</classes>
+	
+	</test>
+
+	
+
+
+</suite> <!-- Suite -->

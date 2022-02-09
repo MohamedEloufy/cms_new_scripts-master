@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Nawgwa Student Regression Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="anonymosUser (failed)">
+    <classes>
+      <class name="anonymousUserTests.GradesTest">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="open_oman_grade"/>
+          <include name="open_saudia_arabia_grade"/>
+          <include name="open_jordan_grade"/>
+          <include name="open_portugal_grade"/>
+          <include name="open_united_kingdom_grade"/>
+          <include name="startDriver"/>
+          <include name="open_kuwait_grade"/>
+          <include name="open_united_states_grade"/>
+          <include name="screenshotFailure"/>
+        </methods>
+      </class> <!-- anonymousUserTests.GradesTest -->
+    </classes>
+  </test> <!-- anonymosUser (failed) -->
+</suite> <!-- Failed suite [Nawgwa Student Regression Suite] -->
